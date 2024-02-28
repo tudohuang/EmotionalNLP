@@ -1,13 +1,21 @@
----
-title: EmotionClassify
-emoji: 🔥
-colorFrom: gray
-colorTo: yellow
-sdk: gradio
-sdk_version: 4.19.2
-app_file: app.py
-pinned: false
-license: mit
----
+# EmotionalNLP
+it can classify 
+[
+"Sadness" 
+"Joy"
+"Love"
+"Anger"
+"Fear"
+"Surprise" 
+]
+**ENGLISH ONLY!!!!!**
+6 classes.
 
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+based on LSTM.
+
+# How to use
+
+```bash
+pip install - r requirements.txt
+python app.py
+```
